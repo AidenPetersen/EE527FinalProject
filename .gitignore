@@ -1,1 +1,4 @@
 .ipynb_checkpoints/
+.envrc
+shell.nix
+ModelNet10
