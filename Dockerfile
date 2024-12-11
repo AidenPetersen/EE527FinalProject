@@ -7,7 +7,8 @@ USER root
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
-    build-essential 
+    build-essential libglu1-mesa libxi-dev libxmu-dev libglu1-mesa-dev xvfb
+
 
 # Create and activate conda environment
 RUN conda create -n $CONDA_ENV_NAME python=$python_version && \

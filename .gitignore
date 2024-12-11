@@ -2,3 +2,4 @@
 .envrc
 shell.nix
 ModelNet10
+binvox
