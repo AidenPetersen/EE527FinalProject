@@ -3,3 +3,5 @@
 shell.nix
 ModelNet10
 binvox
+read_vox
+voxels.txt
